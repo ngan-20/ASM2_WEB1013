@@ -1,0 +1,243 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    font-family: "Inter", sans-serif;
+    background: #FBFBFF;
+  }
+  ul,li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  nav {
+    display: flex;
+  }
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+  }
+  .menu-list {
+    display: flex;
+    gap: 30px;
+  }
+  .btn-group {
+    display: flex;
+    gap: 45px ;
+  }
+  .btn-contact {
+    border: none;
+    padding: 16px 28px;
+    border-radius: 47px;
+    background: #7f56d9;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    padding-left: 30px;
+  }
+  .btn-signin {
+    background: #FBFBFF;
+    border: none;
+    width: 100px;
+    color: #55557a;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  .menu-link {
+    color: #55557a;
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .title {
+    font-family: Caladea;
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: center;
+  }
+  .text{
+    display: flex;
+    font-family: Inter;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+    justify-content: center;
+    color: #7E7EAA;
+  }
+  .join{
+    display: flex;
+    gap: 68px;
+    justify-content: center;
+  }
+  .btn-instructor {
+    border: none;
+    padding: 16px 28px;
+    border-radius: 47px;
+    background: #ff6905;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .btn-student {
+    border: none;
+    padding: 16px 28px;
+    border-radius: 47px;
+    background: #7f56d9;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05)
+  }
+  /* feed back */
+  .btn-text {
+    color: #1d1d45;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: Caladea;
+    line-height: 55px;
+    word-wrap: break-word;
+  }
+  .btn-our {
+    color: #7E7EAA;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 40px;
+    word-wrap: break-word;
+  }
+  .feedback {
+    display: flex;
+    gap: 20px;
+  }
+  .coment {
+    width: 370px;
+    height: 295px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 50px;
+    position: relative;
+  }
+  .in4 {
+    display: flex;
+    position: relative;
+    top: 15px;
+    left: 15px;
+    gap: 10px;
+  }
+  .username {
+    position: absolute;
+    top: 4px;
+    left: 75px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .feedback1 {
+    max-width: 360px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    padding-top: 27px;
+    padding-left: 15px;
+  }
+  .star {
+    position: absolute;
+    padding-top: 10px;
+    left: 25px;
+  }
+.feed-wrapper {
+    width: 520px;
+    height: 455px;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 32px;
+  }
+  
+  .user {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+  }
+  
+  .username {
+    color: #1d1d45;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .feed-content {
+    color: #7e7eaa;
+    font-size: 22px;
+    padding-bottom: 56px;
+    padding-top: 26px;
+  }
+  
+  .feed-back {
+    display: flex;
+    gap: 24px;
+    margin-top: 56px;
+  }
+  footer {
+    background-color: #7f56d9;
+    color: #fff;
+  }
+  .image-footer {
+    display: flex;
+  }
+  .footer {
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .company-info {
+    max-width: 477px;
+  }
+  .lesson {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .footer-logo {
+    width: 81px;
+    height: 54px;
+    top: 5553px;
+    left: 166px;
+  }
+  .footerlogo {
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0px;
+    text-align: left;    
+  }
+  .lesson-info {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+  .lesson-text {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  a{
+    color: #FFFFFF;
+  }
